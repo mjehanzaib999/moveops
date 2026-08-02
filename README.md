@@ -3,7 +3,7 @@
 **End-to-end automation platform for moving / removals companies — from lead capture to invoiced job.**
 
 ### 🔗 [Live demo → moveops.kognio.ai](https://moveops.kognio.ai)
-Demo login: **`owner@swiftmove.example`** / **`demo1234`** · Public instant-quote page: **[/quote](https://moveops.kognio.ai/quote)**
+Demo login: **`demo@kognio.ai`** / **`Demo1234!`** · Public instant-quote page: **[/quote](https://moveops.kognio.ai/quote)**
 
 ---
 
