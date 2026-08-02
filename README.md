@@ -21,6 +21,15 @@ MoveOps is a single command center for a removals business:
 
 ~50 API endpoints across leads, jobs, calendar, field ops, invoicing, automations, and public/webhook surfaces.
 
+## 🤖 AI features — try them live
+Powered by Claude (via OpenRouter):
+
+- **AI Move Estimator** — describe a move in plain English and Claude *streams its reasoning* while building a room-by-room inventory, total volume, crew/truck/hours and a price range. Try *"3-bed house with a piano and 40 boxes, second-floor flat, 25 km."*
+- **Lead Intelligence** — AI scores every open lead by conversion likelihood and hands you the single best next action.
+- **Instant AI quote + booking chatbot** on the public quote page.
+
+> Look for the **✨ AI** tags in the sidebar and the "💡 how to use" hint on each AI screen.
+
 ## Tech
 - **Backend:** FastAPI, async SQLAlchemy, PostgreSQL, APScheduler (automation sweeps)
 - **Frontend:** React 18 + TypeScript + Vite (served same-origin by the API)
