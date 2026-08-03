@@ -24,11 +24,13 @@ MoveOps is a single command center for a removals business:
 ## 🤖 AI features — try them live
 Powered by Claude (via OpenRouter):
 
-- **AI Move Estimator** — describe a move in plain English and Claude *streams its reasoning* while building a room-by-room inventory, total volume, crew/truck/hours and a price range. Try *"3-bed house with a piano and 40 boxes, second-floor flat, 25 km."*
-- **Lead Intelligence** — AI scores every open lead by conversion likelihood and hands you the single best next action.
-- **Instant AI quote + booking chatbot** on the public quote page.
+- **[AI Move Estimator](docs/ai/ai-move-estimator.md)** — describe a move in plain English and Claude *streams its reasoning* while building a room-by-room inventory, total volume, crew/truck/hours and a price range. Try *"3-bed house with a piano and 40 boxes, second-floor flat, 25 km."*
+- **[Lead Intelligence](docs/ai/lead-intelligence.md)** — AI scores every open lead by conversion likelihood and hands you the single best next action.
+- **[Instant AI Quote](docs/ai/instant-ai-quote.md)** + **[Booking Chatbot](docs/ai/booking-chatbot.md)** on the public quote page.
 
 > Look for the **✨ AI** tags in the sidebar and the "💡 how to use" hint on each AI screen.
+
+**→ Full AI use-case docs: [docs/ai/](docs/ai/)**
 
 ## Tech
 - **Backend:** FastAPI, async SQLAlchemy, PostgreSQL, APScheduler (automation sweeps)
