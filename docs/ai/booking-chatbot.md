@@ -19,4 +19,4 @@ An embedded widget runs a tool-calling agent loop (up to four iterations per tur
 Open **[/quote](https://moveops.kognio.ai/quote)** (no login needed) and click the chat bubble. Try: *"Do you cover the Inner West, and how much for a 3-bed?"* then *"Yes, book me in — I'm Sam, sam@example.com."*
 
 ## Under the hood
-`POST /public/chat/message`, unauthenticated and tenant-resolved, persisting conversations and messages. Non-streaming agent loop, `anthropic/claude-sonnet-4` via OpenRouter with OpenAI-format tool specs. `create_lead` routes through the standard lead service and automation engine; a keyword FAQ path covers the no-key case.
+`POST /public/chat/message`, unauthenticated and tenant-resolved, persisting conversations and messages. Non-streaming agent loop, `anthropic/claude-sonnet-4.5` via OpenRouter with OpenAI-format tool specs. `create_lead` routes through the standard lead service and automation engine; a keyword FAQ path covers the no-key case.

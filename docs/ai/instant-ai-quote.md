@@ -18,4 +18,4 @@ On the public quote page, the visitor describes their move to the AI assistant i
 Open the public quote page at **[/quote](https://moveops.kognio.ai/quote)** (no login needed). Fill in the three fields for an instant price, or open the chat bubble and type something like *"How much to move a 2-bed from Bondi to Newtown?"*
 
 ## Under the hood
-`POST /public/chat/message` (unauthenticated, tenant-resolved) drives the natural-language path via the chatbot's `compute_quote` tool; `POST /public/quote` serves the structured form. Both call the shared `estimate_quote` engine. Chat model: `anthropic/claude-sonnet-4` via OpenRouter, with tool calling.
+`POST /public/chat/message` (unauthenticated, tenant-resolved) drives the natural-language path via the chatbot's `compute_quote` tool; `POST /public/quote` serves the structured form. Both call the shared `estimate_quote` engine. Chat model: `anthropic/claude-sonnet-4.5` via OpenRouter, with tool calling.

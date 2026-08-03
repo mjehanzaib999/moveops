@@ -1,6 +1,6 @@
 # MoveOps — AI use cases
 
-The AI features inside MoveOps, each powered by Claude (`anthropic/claude-sonnet-4`) via OpenRouter and each degrading to a deterministic fallback when no API key is configured. Every use case has a full breakdown below.
+The AI features inside MoveOps, each powered by Claude (`anthropic/claude-sonnet-4.5`) via OpenRouter and each degrading to a deterministic fallback when no API key is configured. Every use case has a full breakdown below.
 
 ### AI Move Estimator
 Turns a free-text move description into a professional volumetric survey — room-by-room inventory, total volume, crew/truck/hours and a price range — with Claude streaming its reasoning first.

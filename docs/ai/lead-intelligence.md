@@ -19,4 +19,4 @@ For each open lead, MoveOps assembles real signals from the database — source,
 Sign in (`demo@kognio.ai` / `Demo1234!`) and open **Lead Intelligence** in the sidebar. The seeded demo company ships with ~80 leads, so scores, reasons and actions populate immediately.
 
 ## Under the hood
-`POST /ai/lead-score`, authenticated and tenant-scoped. One batched Claude call (`anthropic/claude-sonnet-4` via OpenRouter, `response_format=json_object`). Message counts come from a single grouped query; scores are validated and clamped, and a heuristic covers the no-key / failure path.
+`POST /ai/lead-score`, authenticated and tenant-scoped. One batched Claude call (`anthropic/claude-sonnet-4.5` via OpenRouter, `response_format=json_object`). Message counts come from a single grouped query; scores are validated and clamped, and a heuristic covers the no-key / failure path.

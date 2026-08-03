@@ -20,4 +20,4 @@ Claude (via OpenRouter) plays a senior removals surveyor. It reads the free-text
 Sign in (`demo@kognio.ai` / `Demo1234!`), open **AI Estimator** in the sidebar, and describe a move. Example: *"3-bed house with a piano and 40 boxes, second-floor flat, 25 km."* Watch the reasoning stream, then the structured survey lands.
 
 ## Under the hood
-`POST /ai/estimate/stream` (SSE) and `POST /ai/estimate` (JSON), both authenticated and tenant-scoped. Model `anthropic/claude-sonnet-4` via OpenRouter, `response_format=json_object` for the non-streaming path, a `===ESTIMATE_JSON===` delimiter for the stream. Every field is coerced and clamped server-side; a heuristic fallback guarantees a response.
+`POST /ai/estimate/stream` (SSE) and `POST /ai/estimate` (JSON), both authenticated and tenant-scoped. Model `anthropic/claude-sonnet-4.5` via OpenRouter, `response_format=json_object` for the non-streaming path, a `===ESTIMATE_JSON===` delimiter for the stream. Every field is coerced and clamped server-side; a heuristic fallback guarantees a response.
